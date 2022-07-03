@@ -18,3 +18,11 @@
 <b />
 
 #### :black_medium_small_square:Running the program file
+###### First install the following dependencies 
+```
+pip install gTTS
+pip install speechrecognition
+pip install playsound
+```
+###### Then run the program
+###### (you have to replace sender email id and reciever email id in the python code)
