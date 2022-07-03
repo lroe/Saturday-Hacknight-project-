@@ -19,7 +19,8 @@ import time
 
 # Request all access (permission to read/send/receive emails, manage the inbox, and more)
 SCOPES = ['https://mail.google.com/']
-our_email = 'testingjeevan1337@gmail.com'
+#insert your email here
+our_email = 'useremail@gmail.com'
 
 def gmail_authenticate():
     creds = None
@@ -94,12 +95,11 @@ def send_message(service, destination, obj, body, attachments=[]):
 	      userId="me",
 	      body=build_message(destination, obj, body, attachments)
 	    ).execute()
-    
-    
-    
-    # test send email
-#send_message(service, "sree.nathkp01@gmail.com", "Hello", 
- #           "This is the body of the email",["btc.png"])
+
+  #sending message  
+  #send_message(service, "recieveremail@gmail.com", "Hello",
+
+ # "This is the body of the email",["attachment.file"])
 while True:
 	user_id =  'me'
 	label_id_one = 'INBOX'
@@ -191,7 +191,7 @@ while True:
 
 
 
-
+        #text to speech
 
 
 
@@ -231,35 +231,7 @@ while True:
 		# Playing the converted file
 		playsound("welcome.mp3")
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 		print ("Total messaged retrived: ", str(len(final_list)))
 		print(final_list)
-	
+	#rerunning the program every 100 sec
 	time.sleep(100)
