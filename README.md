@@ -16,4 +16,5 @@
 ###### :small_orange_diamond:Enter the Application name, and click on the Create button.
 ###### :small_orange_diamond:The Client ID will be created. Download it to your computer and save it as credentials.json in the program folder.
 <b />
-#### :black_medium_small_square: Running the program file
+
+#### :black_medium_small_square:Running the program file
